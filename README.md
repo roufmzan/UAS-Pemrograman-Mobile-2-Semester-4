@@ -31,10 +31,6 @@ Tugasku adalah aplikasi *mobile* berbasis Android yang dirancang untuk membantu 
 * **Halaman Voice-to-Text / Input Tugas:**
   ![Task Input UI](link_gambar_input_disini.png)
 
-## 🛠️ Project Management (SCRUM)
-Pengembangan aplikasi ini dikelola menggunakan metode SCRUM. [cite_start]Berikut adalah tautan *workspace* ClickUp yang berisi *backlog*, *sprint planning*, dan progres pengerjaan aplikasi:
-
-🔗 **[Masukkan Link ClickUp Anda Di Sini]**
 
 ## 💻 Teknologi yang Digunakan
 * **IDE:** Android Studio
