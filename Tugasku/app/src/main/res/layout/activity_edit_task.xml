@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2D2D2D"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <!-- Header with Back Button -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:layout_marginTop="16dp">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:src="@android:drawable/ic_menu_revert"
+                app:tint="#FFFFFF"
+                android:clickable="true"
+                android:focusable="true" />
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit Tugas"
+                android:textColor="#FFFFFF"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:layout_centerInParent="true" />
+
+        </RelativeLayout>
+
+        <!-- Nama Tugas -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Tugas"
+            android:textColor="#AAAAAA"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/et_nama_tugas"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/input_background"
+            android:hint="Contoh: Laporan Arsitektur Komputer"
+            android:textColorHint="#888888"
+            android:textColor="#FFFFFF"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_marginBottom="20dp"
+            android:inputType="text" />
+
+        <!-- Mata Kuliah -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mata Kuliah"
+            android:textColor="#AAAAAA"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/et_mata_kuliah"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/input_background"
+            android:hint="Contoh: Pemrograman Mobile"
+            android:textColorHint="#888888"
+            android:textColor="#FFFFFF"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_marginBottom="20dp"
+            android:inputType="text" />
+
+        <!-- Deskripsi -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Deskripsi"
+            android:textColor="#AAAAAA"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/et_deskripsi"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:background="@drawable/input_background"
+            android:hint="Catatan tambahan untuk tugas ini..."
+            android:textColorHint="#888888"
+            android:textColor="#FFFFFF"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:paddingTop="12dp"
+            android:layout_marginBottom="12dp"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:maxLines="5" />
+
+        <!-- Lampirkan Gambar -->
+        <Button
+            android:id="@+id/btn_attach_image"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="📎 Lampirkan Gambar"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:background="@drawable/input_background"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Lampirkan File (PDF/DOC/XLS/PPT) -->
+        <Button
+            android:id="@+id/btn_attach_file"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="📄 Lampirkan File"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:background="@drawable/input_background"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Tambah Link (Google Drive/URL) -->
+        <Button
+            android:id="@+id/btn_add_link"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="🔗 Tambah Link"
+            android:textColor="#FFFFFF"
+            android:textSize="14sp"
+            android:background="@drawable/input_background"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Preview Gambar -->
+        <ImageView
+            android:id="@+id/iv_preview_image"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginBottom="20dp"
+            android:scaleType="centerCrop"
+            android:background="@drawable/input_background"
+            android:visibility="gone" />
+
+        <!-- Daftar Lampiran -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lampiran"
+            android:textColor="#AAAAAA"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_attachments"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp" />
+
+        <!-- Tenggat Waktu -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tenggat Waktu"
+            android:textColor="#AAAAAA"
+            android:textSize="14sp"
+            android:layout_marginBottom="8dp" />
+
+        <RelativeLayout
+            android:id="@+id/date_picker_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/date_picker_background"
+            android:layout_marginBottom="32dp"
+            android:clickable="true"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/tv_selected_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="8 Oktober 2025"
+                android:textColor="#FFFFFF"
+                android:textSize="16sp"
+                android:layout_centerVertical="true"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp" />
+
+            <ImageView
+                android:id="@+id/iv_calendar_icon"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="16dp"
+                android:src="@android:drawable/ic_menu_my_calendar"
+                app:tint="#FFFFFF" />
+
+        </RelativeLayout>
+
+        <!-- Action Buttons: Simpan & Batal -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="16dp"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:text="BATAL"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_delete"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:text="SIMPAN"
+                android:textColor="#FFFFFF"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_complete" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

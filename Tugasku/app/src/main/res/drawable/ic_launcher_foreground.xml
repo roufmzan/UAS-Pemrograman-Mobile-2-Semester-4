@@ -1,0 +1,28 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Checkmark (Blue) - Larger and more prominent -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M25,50 L35,60 L70,25 L75,30 L35,70 L20,55 Z" />
+    
+    <!-- Task Lines (White) - Positioned to the right -->
+    <!-- Line 1 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,35 L88,35 L88,41 L58,41 Z" />
+    
+    <!-- Line 2 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,50 L88,50 L88,56 L58,56 Z" />
+    
+    <!-- Line 3 -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M58,65 L88,65 L88,71 L58,71 Z" />
+    
+</vector>

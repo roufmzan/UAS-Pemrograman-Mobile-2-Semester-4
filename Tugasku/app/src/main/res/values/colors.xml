@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    
+    <!-- Dark Theme Colors -->
+    <color name="dark_background">#2D2D2D</color>
+    <color name="dark_surface">#3D3D3D</color>
+    <color name="dark_text_primary">#FFFFFF</color>
+    <color name="dark_text_secondary">#AAAAAA</color>
+    
+    <!-- Light Theme Colors -->
+    <color name="light_background">#F5F5F5</color>
+    <color name="light_surface">#FFFFFF</color>
+    <color name="light_text_primary">#000000</color>
+    <color name="light_text_secondary">#666666</color>
+    
+    <!-- Common Colors -->
+    <color name="primary_blue">#2196F3</color>
+    <color name="accent_orange">#FFA726</color>
+</resources>

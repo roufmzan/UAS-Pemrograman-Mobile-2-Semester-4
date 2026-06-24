@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_background">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <ImageView
+            android:id="@+id/img_mic_ai"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_mic_ai"
+            android:layout_marginBottom="24dp"
+            android:alpha="0.8"/>
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Merekam"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:layout_marginBottom="32dp"/>
+
+        <TextView
+            android:id="@+id/tv_timer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00:00:00"
+            android:textColor="#FFFFFF"
+            android:textSize="48sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="48dp"/>
+
+        <com.example.tugasku.WaveformView
+            android:id="@+id/waveform_view"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_marginBottom="64dp"
+            android:background="#1AFFFFFF"
+            android:visibility="invisible"/>
+
+        <Button
+            android:id="@+id/btn_start_record"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#2196F3"
+            android:text="🔴 MULAI REKAM"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btn_stop_process"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#EF5350"
+            android:text="■ STOP &amp; PROSES KE AI ✨"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:visibility="gone"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/btn_import_audio"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:backgroundTint="#4CAF50"
+            android:text="📁 PILIH FILE REKAMAN DARI HP"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:gravity="center"
+            android:text="Tips: Letakkan HP dekat sumber suara\nagar hasil AI lebih akurat."
+            android:textColor="#88FFFFFF"
+            android:textSize="12sp"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_margin="16dp"
+        android:src="@android:drawable/ic_menu_revert"
+        app:tint="#FFFFFF"/>
+
+</RelativeLayout>

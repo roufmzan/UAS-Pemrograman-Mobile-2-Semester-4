@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="80dp"
+    android:viewportWidth="120"
+    android:viewportHeight="80">
+    
+    <!-- White rounded rectangle background for checkbox -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M10,15 L50,15 Q55,15 55,20 L55,60 Q55,65 50,65 L10,65 Q5,65 5,60 L5,20 Q5,15 10,15 Z" />
+    
+    <!-- Blue checkmark -->
+    <path
+        android:fillColor="#2196F3"
+        android:pathData="M25,48 L18,41 L15,44 L25,54 L45,34 L42,31 Z" />
+    
+    <!-- Three horizontal lines (list) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M70,28 L110,28 L110,32 L70,32 Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M70,38 L110,38 L110,42 L70,42 Z" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M70,48 L110,48 L110,52 L70,52 Z" />
+    
+</vector>

@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Tugasku</string>
+    <string name="aktif">АКТИВНЫЕ</string>
+    <string name="text1">Главная — Активные задачи</string>
+    <string name="selesai">ЗАВЕРШЕННЫЕ</string>
+    <string name="add">Добавить задачу</string>
+    <string name="title">Tugasku</string>
+
+    <string name="location_unavailable">Местоположение недоступно</string>
+    <string name="gps_disabled_title">GPS отключён</string>
+    <string name="gps_disabled_message">Для определения местоположения нужен GPS. Включить GPS сейчас?</string>
+    <string name="settings">Настройки</string>
+    <string name="cancel">Отмена</string>
+    <string name="country_default_name">Индонезия</string>
+
+    <string name="flag_content_description">Флаг</string>
+    <string name="splash_app_name">TUGASKU</string>
+    <string name="location_placeholder">Местоположение</string>
+    <string name="version_text">Версия 1.0</string>
+    <string name="powered_by">Powered by Android</string>
+
+    <string name="menu_settings">Настройки</string>
+    <string name="menu_display_mode">Режим отображения</string>
+    <string name="menu_dark_mode">Тёмная тема</string>
+    <string name="menu_light_mode">Светлая тема</string>
+    <string name="menu_clear_all_tasks">Удалить все задачи</string>
+    <string name="menu_clear_completed">Удалить завершённые</string>
+    <string name="menu_export_data">Экспорт данных</string>
+    <string name="menu_reminder_lead">Время напоминания</string>
+    <string name="menu_about">О приложении</string>
+
+    <string name="subtitle_active">Главная — Активные задачи</string>
+    <string name="subtitle_completed">Главная — Завершённые задачи</string>
+    <string name="add_task_title">Добавить новую задачу</string>
+    <string name="label_task_name">Название задачи</string>
+    <string name="hint_task_name">Например: Отчёт по архитектуре компьютера</string>
+    <string name="label_course">Предмет</string>
+    <string name="hint_course">Например: Мобильное программирование</string>
+    <string name="label_description">Описание</string>
+    <string name="hint_description">Дополнительные заметки к задаче...</string>
+    <string name="btn_attach_image">📎 Прикрепить изображение</string>
+    <string name="btn_attach_file">📄 Прикрепить файл</string>
+    <string name="btn_add_link">🔗 Добавить ссылку</string>
+    <string name="label_attachments">Вложения</string>
+    <string name="label_deadline">Срок</string>
+    <string name="date_placeholder">Выбрать дату</string>
+    <string name="btn_save">СОХРАНИТЬ</string>
+    <string name="toast_image_attached">Изображение прикреплено</string>
+    <string name="toast_image_attach_failed">Не удалось прикрепить изображение</string>
+    <string name="toast_file_attached">Файл прикреплён</string>
+    <string name="error_task_name_required">Введите название задачи</string>
+    <string name="error_course_required">Введите предмет</string>
+    <string name="toast_task_added">Задача добавлена</string>
+    <string name="hint_add_link_input">https://drive.google.com/...</string>
+    <string name="dialog_add_link_title">Добавить ссылку</string>
+    <string name="dialog_add_link_positive">Добавить</string>
+    <string name="toast_invalid_link">Неверная ссылка</string>
+    <string name="attachment_default_file">Файл</string>
+</resources>

@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Tugasku</string>
+    <string name="aktif">AKTIV</string>
+    <string name="text1">Startseite – Aktive Aufgaben</string>
+    <string name="selesai">ERLEDIGT</string>
+    <string name="add">Aufgabe hinzufügen</string>
+    <string name="title">Tugasku</string>
+
+    <string name="location_unavailable">Standort nicht verfügbar</string>
+    <string name="gps_disabled_title">GPS deaktiviert</string>
+    <string name="gps_disabled_message">GPS wird benötigt, um deinen Standort zu ermitteln. GPS jetzt aktivieren?</string>
+    <string name="settings">Einstellungen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="country_default_name">Indonesien</string>
+
+    <string name="flag_content_description">Flagge</string>
+    <string name="splash_app_name">TUGASKU</string>
+    <string name="location_placeholder">Standort</string>
+    <string name="version_text">Version 1.0</string>
+    <string name="powered_by">Powered by Android</string>
+
+    <string name="menu_settings">Einstellungen</string>
+    <string name="menu_display_mode">Anzeige</string>
+    <string name="menu_dark_mode">Dunkelmodus</string>
+    <string name="menu_light_mode">Hellmodus</string>
+    <string name="menu_clear_all_tasks">Alle Aufgaben löschen</string>
+    <string name="menu_clear_completed">Erledigte Aufgaben löschen</string>
+    <string name="menu_export_data">Daten exportieren</string>
+    <string name="menu_reminder_lead">Erinnerungsvorlauf</string>
+    <string name="menu_about">Über</string>
+
+    <string name="subtitle_active">Startseite – Aktive Aufgaben</string>
+    <string name="subtitle_completed">Startseite – Erledigte Aufgaben</string>
+    <string name="add_task_title">Neue Aufgabe hinzufügen</string>
+    <string name="label_task_name">Aufgabenname</string>
+    <string name="hint_task_name">Beispiel: Bericht zur Computerarchitektur</string>
+    <string name="label_course">Kurs</string>
+    <string name="hint_course">Beispiel: Mobile Programmierung</string>
+    <string name="label_description">Beschreibung</string>
+    <string name="hint_description">Zusätzliche Notizen zu dieser Aufgabe...</string>
+    <string name="btn_attach_image">📎 Bild anhängen</string>
+    <string name="btn_attach_file">📄 Datei anhängen</string>
+    <string name="btn_add_link">🔗 Link hinzufügen</string>
+    <string name="label_attachments">Anhänge</string>
+    <string name="label_deadline">Fälligkeitsdatum</string>
+    <string name="date_placeholder">Datum auswählen</string>
+    <string name="btn_save">SPEICHERN</string>
+    <string name="toast_image_attached">Bild angehängt</string>
+    <string name="toast_image_attach_failed">Bild konnte nicht angehängt werden</string>
+    <string name="toast_file_attached">Datei angehängt</string>
+    <string name="error_task_name_required">Aufgabenname ist erforderlich</string>
+    <string name="error_course_required">Kurs ist erforderlich</string>
+    <string name="toast_task_added">Aufgabe hinzugefügt</string>
+    <string name="hint_add_link_input">https://drive.google.com/...</string>
+    <string name="dialog_add_link_title">Link hinzufügen</string>
+    <string name="dialog_add_link_positive">Hinzufügen</string>
+    <string name="toast_invalid_link">Ungültiger Link</string>
+    <string name="attachment_default_file">Datei</string>
+</resources>

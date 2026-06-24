@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Tugasku</string>
+    <string name="aktif">进行中</string>
+    <string name="text1">主页 - 进行中的任务</string>
+    <string name="selesai">已完成</string>
+    <string name="add">添加任务</string>
+    <string name="title">Tugasku</string>
+
+    <string name="location_unavailable">无法获取位置</string>
+    <string name="gps_disabled_title">GPS 已关闭</string>
+    <string name="gps_disabled_message">需要 GPS 来获取您的位置。现在启用 GPS 吗？</string>
+    <string name="settings">设置</string>
+    <string name="cancel">取消</string>
+    <string name="country_default_name">印度尼西亚</string>
+
+    <string name="flag_content_description">国旗</string>
+    <string name="splash_app_name">TUGASKU</string>
+    <string name="location_placeholder">位置</string>
+    <string name="version_text">版本 1.0</string>
+    <string name="powered_by">Powered by Android</string>
+
+    <string name="menu_settings">设置</string>
+    <string name="menu_display_mode">显示模式</string>
+    <string name="menu_dark_mode">深色模式</string>
+    <string name="menu_light_mode">浅色模式</string>
+    <string name="menu_clear_all_tasks">删除所有任务</string>
+    <string name="menu_clear_completed">删除已完成任务</string>
+    <string name="menu_export_data">导出数据</string>
+    <string name="menu_reminder_lead">提醒提前时间</string>
+    <string name="menu_about">关于</string>
+
+    <string name="subtitle_active">主页 - 进行中的任务</string>
+    <string name="subtitle_completed">主页 - 已完成任务</string>
+    <string name="add_task_title">添加新任务</string>
+    <string name="label_task_name">任务名称</string>
+    <string name="hint_task_name">例如：计算机体系结构报告</string>
+    <string name="label_course">课程</string>
+    <string name="hint_course">例如：移动编程</string>
+    <string name="label_description">描述</string>
+    <string name="hint_description">此任务的附加备注...</string>
+    <string name="btn_attach_image">📎 附加图片</string>
+    <string name="btn_attach_file">📄 附加文件</string>
+    <string name="btn_add_link">🔗 添加链接</string>
+    <string name="label_attachments">附件</string>
+    <string name="label_deadline">截止时间</string>
+    <string name="date_placeholder">选择日期</string>
+    <string name="btn_save">保存</string>
+    <string name="toast_image_attached">图片已附加</string>
+    <string name="toast_image_attach_failed">附加图片失败</string>
+    <string name="toast_file_attached">文件已附加</string>
+    <string name="error_task_name_required">请输入任务名称</string>
+    <string name="error_course_required">请输入课程</string>
+    <string name="toast_task_added">任务已添加</string>
+    <string name="hint_add_link_input">https://drive.google.com/...</string>
+    <string name="dialog_add_link_title">添加链接</string>
+    <string name="dialog_add_link_positive">添加</string>
+    <string name="toast_invalid_link">无效的链接</string>
+    <string name="attachment_default_file">文件</string>
+</resources>

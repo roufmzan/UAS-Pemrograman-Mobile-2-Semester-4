@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Tugasku</string>
+    <string name="aktif">ATIVAS</string>
+    <string name="text1">Início - Tarefas ativas</string>
+    <string name="selesai">CONCLUÍDAS</string>
+    <string name="add">Adicionar tarefa</string>
+    <string name="title">Tugasku</string>
+
+    <string name="location_unavailable">Localização indisponível</string>
+    <string name="gps_disabled_title">GPS desativado</string>
+    <string name="gps_disabled_message">O GPS é necessário para obter sua localização. Ativar o GPS agora?</string>
+    <string name="settings">Configurações</string>
+    <string name="cancel">Cancelar</string>
+    <string name="country_default_name">Indonésia</string>
+
+    <string name="flag_content_description">Bandeira</string>
+    <string name="splash_app_name">TUGASKU</string>
+    <string name="location_placeholder">Localização</string>
+    <string name="version_text">Versão 1.0</string>
+    <string name="powered_by">Powered by Android</string>
+
+    <string name="menu_settings">Configurações</string>
+    <string name="menu_display_mode">Modo de exibição</string>
+    <string name="menu_dark_mode">Modo escuro</string>
+    <string name="menu_light_mode">Modo claro</string>
+    <string name="menu_clear_all_tasks">Apagar todas as tarefas</string>
+    <string name="menu_clear_completed">Apagar tarefas concluídas</string>
+    <string name="menu_export_data">Exportar dados</string>
+    <string name="menu_reminder_lead">Antecedência do lembrete</string>
+    <string name="menu_about">Sobre</string>
+
+    <string name="subtitle_active">Início - Tarefas ativas</string>
+    <string name="subtitle_completed">Início - Tarefas concluídas</string>
+    <string name="add_task_title">Adicionar nova tarefa</string>
+    <string name="label_task_name">Nome da tarefa</string>
+    <string name="hint_task_name">Exemplo: Relatório de Arquitetura de Computadores</string>
+    <string name="label_course">Matéria</string>
+    <string name="hint_course">Exemplo: Programação mobile</string>
+    <string name="label_description">Descrição</string>
+    <string name="hint_description">Notas adicionais para esta tarefa...</string>
+    <string name="btn_attach_image">📎 Anexar imagem</string>
+    <string name="btn_attach_file">📄 Anexar arquivo</string>
+    <string name="btn_add_link">🔗 Adicionar link</string>
+    <string name="label_attachments">Anexos</string>
+    <string name="label_deadline">Prazo</string>
+    <string name="date_placeholder">Selecionar data</string>
+    <string name="btn_save">SALVAR</string>
+    <string name="toast_image_attached">Imagem anexada</string>
+    <string name="toast_image_attach_failed">Falha ao anexar imagem</string>
+    <string name="toast_file_attached">Arquivo anexado</string>
+    <string name="error_task_name_required">O nome da tarefa é obrigatório</string>
+    <string name="error_course_required">A matéria é obrigatória</string>
+    <string name="toast_task_added">Tarefa adicionada</string>
+    <string name="hint_add_link_input">https://drive.google.com/...</string>
+    <string name="dialog_add_link_title">Adicionar link</string>
+    <string name="dialog_add_link_positive">Adicionar</string>
+    <string name="toast_invalid_link">Link inválido</string>
+    <string name="attachment_default_file">Arquivo</string>
+</resources>
