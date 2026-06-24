@@ -12,7 +12,7 @@ Tugasku adalah aplikasi *mobile* berbasis Android yang dirancang untuk membantu 
 | Mata Kuliah    | Pemrograman Mobile 2                 |
 | Dosen Pengampu | Donny Maulana, S.Kom., M.M.S.I.      |
 | YouTube        | [Tonton Demo]()     |
-| ClickUp        | [Lihat Project]()   |
+| ClickUp        | [Lihat Project](https://app.clickup.com/90181759596/v/li/901812361216)   |
 
 ## ✨ Fitur Utama
 * **Manajemen Tugas:** Tambah, edit, dan hapus jadwal serta detail tugas perkuliahan.
