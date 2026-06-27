@@ -41,13 +41,14 @@ Berikut adalah gambaran antarmuka (UI) dari aplikasi **Tugasku** yang dirancang 
 *(Catatan: Silakan ganti URL gambar di bawah ini dengan screenshot UI aplikasi yang sudah Anda unggah ke repositori GitHub)*
 
 * **Splash Screen & Login:**
-  ![Login UI](link_gambar_login_disini.png)
+<img width="200" height="400" alt="Screenshot_2026-06-27-20-02-52-596_com example tugasku" src="https://github.com/user-attachments/assets/d4315ce2-a380-418e-95ea-95b391a82bf3" />
+
 * **Dashboard / Halaman Utama Tugas:**
-  ![Dashboard UI](link_gambar_dashboard_disini.png)
-* **Halaman Detail Tugas & Lampiran:**
-  ![Detail UI](link_gambar_detail_disini.png)
+<img width="200" height="400" alt="Screenshot_2026-06-27-20-03-58-937_com example tugasku" src="https://github.com/user-attachments/assets/55216a3f-8df5-4317-b61e-1c8bc3a4e6a2" />
+
 * **Halaman Rekaman Voice-to-Text (AI):**
-  ![Task Input UI](link_gambar_input_disini.png)
+<img width="200" height="400" alt="Screenshot_2026-06-27-20-04-08-349_com example tugasku" src="https://github.com/user-attachments/assets/f418435f-5947-4e70-86a8-dd132fe26281" />
+
 
 ---
 
