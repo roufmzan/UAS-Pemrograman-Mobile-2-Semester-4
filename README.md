@@ -15,7 +15,7 @@
 | **Mata Kuliah** | Pemrograman Mobile 2 |
 | **Dosen Pengampu** | Donny Maulana, S.Kom., M.M.S.I. |
 | **Demo Aplikasi** | [Tonton Video Demo di YouTube]() |
-| **Manajemen Proyek**| [Lihat Project di ClickUp](https://app.clickup.com/90181759596/v/li/901812361216) |
+| **Manajemen Proyek**| [Lihat Project di ClickUp](https://sharing.clickup.com/90181759596/b/h/6-901812361216-2/fa74978ca2faf70) |
 
 ---
 
